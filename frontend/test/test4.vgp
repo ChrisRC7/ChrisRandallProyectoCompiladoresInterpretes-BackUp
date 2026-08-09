@@ -1,0 +1,51 @@
+# INICIALIZACIÓN
+Haz ae 144;
+Haz l1 200;
+Haz l2 190;
+# PREPARACIÓN DE LA TORTUGA
+centro;
+poncolorlapiz negro;
+ponrumbo 90;
+bajalapiz;
+# === ESTRELLA 1 (CON ESPACIO) ===
+poncolorlapiz Rojo;
+avanza l1; giraderecha ae;
+avanza l1; giraderecha ae;
+avanza l1; giraderecha ae;
+avanza l1; giraderecha ae;
+avanza l2;
+# === ESTRELLA 2 (COMIENZA DESDE DONDE TERMINÓ LA 1) ===
+poncolorlapiz Verde;
+Haz l3 175;
+giraderecha ae;
+avanza l3; giraderecha ae;
+avanza 170; giraderecha ae;
+avanza l3; giraderecha ae;
+avanza 170; giraderecha ae;
+avanza 150;
+# === ESTRELLA 3 ===
+poncolorlapiz Azul;
+giraderecha ae;
+avanza 130; giraderecha ae;
+avanza 120; giraderecha ae;
+avanza 110; giraderecha ae;
+avanza 100; giraderecha ae;
+avanza 90;
+# === ESTRELLA 4 ===
+poncolorlapiz Amarillo;
+giraderecha ae;
+avanza 80; giraderecha ae;
+avanza 70; giraderecha ae;
+avanza 60; giraderecha ae;
+avanza 50; giraderecha ae;
+avanza 40;
+# === ESTRELLA 5 ===
+poncolorlapiz Cyan;
+giraderecha ae;
+avanza 35; giraderecha ae;
+avanza 30; giraderecha ae;
+avanza 25; giraderecha ae;
+avanza 20; giraderecha ae;
+avanza 15;
+# FINALIZACIÓN
+ocultatortuga;
